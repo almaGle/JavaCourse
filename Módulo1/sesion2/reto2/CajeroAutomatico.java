@@ -1,4 +1,4 @@
-package Retos.sesion2.reto2;
+package JavaCourse.Módulo1.sesion2.reto2;
 
 import java.util.Scanner;
 

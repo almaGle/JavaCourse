@@ -1,4 +1,4 @@
-package Retos.sesion1.reto1;
+package JavaCourse.Módulo1.sesion1.reto1;
 
 public class Paciente {
 

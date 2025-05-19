@@ -1,4 +1,4 @@
-package Retos.sesion4.reto1;
+package JavaCourse.Módulo1.sesion4.reto1;
 
 public class principal {
     public static void main(String[] args) {

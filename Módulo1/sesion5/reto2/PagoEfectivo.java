@@ -1,4 +1,4 @@
-package Retos.sesion5.reto2;
+package JavaCourse.Módulo1.sesion5.reto2;
 
 public class PagoEfectivo extends MetodoPago implements Autenticable {
     public PagoEfectivo(double monto) {

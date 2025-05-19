@@ -1,5 +1,5 @@
-package Retos.sesion5.reto2;
-// 🧪 Clase CajaRegistradora
+package JavaCourse.Módulo1.sesion5.reto2;
+
 public class CajaRegistradora {
     public static void main(String[] args) {
         MetodoPago[] pagos = new MetodoPago[5];
@@ -22,7 +22,7 @@ public class CajaRegistradora {
                     System.out.println("Pago no autenticado. No se puede procesar.");
                 }
             } else {
-                // Si el método de pago no requiere autenticación (aunque en este diseño todos la implementan)
+                
                 pago.procesarPago();
                 pago.mostrarResumen();
             }

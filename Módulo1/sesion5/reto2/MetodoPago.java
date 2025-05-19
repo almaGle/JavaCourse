@@ -1,4 +1,4 @@
-package Retos.sesion5.reto2;
+package JavaCourse.Módulo1.sesion5.reto2;
 
 public abstract class MetodoPago {
     protected double monto;

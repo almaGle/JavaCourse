@@ -1,4 +1,4 @@
-package Retos.sesion2.reto1;
+package JavaCourse.Módulo1.sesion2.reto1;
 import java.util.Scanner;
 public class SimuldaorFarmacia {
     public static void main(String[] args) {

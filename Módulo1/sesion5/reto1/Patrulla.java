@@ -1,4 +1,4 @@
-package Retos.sesion5.reto1;
+package JavaCourse.Módulo1.sesion5.reto1;
 
 public class Patrulla extends UnidadEmergencia {
     private SistemaGPS gps;
