@@ -1,0 +1,44 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.5.0'
+	id 'io.spring.dependency-management' version '1.1.7'
+     id 'application' 
+}
+
+group = 'org.alma'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(24)
+	}
+}
+
+repositories {
+    mavenCentral() 
+}
+
+dependencies {
+    implementation 'io.projectreactor:reactor-core:3.6.11'
+    
+    
+    implementation 'org.slf4j:slf4j-simple:2.0.12' 
+    
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs = ['-Dfile.encoding=UTF-8']
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'org.alma.reto1.ControlMeridianPrime'
+}
